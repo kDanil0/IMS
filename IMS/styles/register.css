@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #46494C;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+    flex: 1;
+    box-shadow: 6.5px 7.5px 15px 1px #000;
+    border-radius: 25px;
+    width: 800px;
+    height: 600px;
+    background-color: #C5C3C6;   
+}
+
+.form-container .success{
+    padding: 10px;
+    margin: 0px 50px;
+    display: block;
+    text-align: center;
+    background-color: limegreen;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.form-container .alert{
+    padding: 10px;
+    margin: 0px 50px;
+    display: block;
+    text-align: center;
+    background-color: rgb(224, 96, 96);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.form-container h1{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.form-container .upper{
+    width: 100%;
+    padding: 0 50px;
+}
+
+.form-container .upper .password input{
+    border: none;
+    border-radius: 25px;
+    padding: 0 10px;
+    height: 40px;
+    width: 347px;
+    margin-bottom: 20px;
+}
+.form-container .upper .name input{
+    border: none;
+    border-radius: 25px;
+    padding: 0 10px;
+    height: 40px;
+    width: 347px;
+    margin-bottom: 20px;
+}
+
+.form-container .upper input{
+    border: none;
+    border-radius: 25px;
+    padding: 0 10px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-container h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form-container .lower{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container .lower a{
+    margin: 10px;
+    text-decoration: none;
+    color: #4C5C68;
+    font-weight: 600;
+}
+
+.form-container .lower a:hover{
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.form-container .lower input{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container .lower input:hover{
+    background-color: #4C5C68;
+    color: white;
+}

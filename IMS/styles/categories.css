@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #4c5c68;
+    display: flex;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+header .btnHome{
+    width: 100px;
+    margin-top: 50px;
+    border: 2px solid #DCDCDD;
+    border-radius: 25px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+header .btnHome:hover{
+    background-color: #DCDCDD;
+    color: #4c5c68;
+}
+
+header .btnHome i{
+    font-size: 40px;
+    color: #DCDCDD;
+    padding: 20px;
+}
+
+header .btnHome i:hover{
+    color: #4c5c68;
+}
+
+header h1{
+    font-size: 100px;
+    margin: 0 50px;
+    -webkit-text-fill-color: #4c5c68;
+    -webkit-text-stroke: 2px #DCDCDD;
+    letter-spacing: 10px;
+}
+
+.main table{
+    margin-top: 100px;
+    padding: 0 30px;
+    width: 70%;
+    color: #DCDCDD;
+}
+
+.main th{
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.main td button{
+    background-color: transparent;
+    width: 50px;
+    border-radius: 45px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.main td button:hover{
+    background-color: #C5C3C6;
+}
+
+.main td i{
+    font-size: 16px;
+    padding: 5px 16px;
+    color: #DCDCDD;
+}
+
+.main td i:hover{
+    font-size: 16px;
+    color: #000;
+}
+
+
+.main td{
+    font-size: 20px;
+    transition: all 0.6 ease;
+}
+
+.main td:nth-child(1){
+    width: 60%;
+}
+
+.main td:nth-child(2){
+    width: 20%;
+}
+
+.main td:nth-child(3){
+    width: 5%;
+}
